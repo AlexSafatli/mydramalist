@@ -15,10 +15,3 @@ type Drama struct {
 	Tags           []string
 	RelatedContent []string
 }
-
-func NewDrama(title, country string) Drama {
-	return Drama{
-		Title:   title,
-		Country: country,
-	}
-}
